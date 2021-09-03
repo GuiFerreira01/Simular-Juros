@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <link rel="SHORTCUT ICON" href="_img/itau (2) - Copia.ico" type="image/x-icon" />
+    <title>Simlar Juros</title>
+    <meta charset="utf-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap Icon-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <link rel="stylesheet" href="_css/style.css">
+
+  </head>
+  <body>
+    <header class="text-center">
+      <div class="gabriel">
+      <img class="itau" src="_img/itau (2).png" />
+    </div>
+    </header>
+    <main>
+    <div class="container  mt-2">
+      
+      <div class="meio">
+        <div class="row justify-content-center ">
+            <div class="col-4 ">
+                <form class="form-notas" autocomplete="off" method="POST">
+                    <div class="mb-3">
+                        <label for="nome" class="form-label">Nome:</label>
+                        <input type="text" class="form-control" id="nome" name="clima" > 
+                        <label for="Mensalidade" class="form-label">Mensalidade:</label>
+                        <input type="number" class="form-control" id="Mensalidade" name="Mensalidade" > 
+                        <label for="anos" class="form-label">Tempo(em anos):</label>
+                        <input type="number" class="form-control" id="anos" name="anos" > 
+                    </div>   
+                    <button type="submit" class="btn btn-primary" onclick="juros_composto(); return false"  >Simular</button>
+                </form>
+            </div>
+            <div class="col-8 show-result d-none">
+                <div class="text-center ">
+                  <div class="display-1 text-info result-value">...</div>
+                  <div class="description-result">  </div>
+                  <img class="img-fluid d-none img-aprovado m-5" src="https://www.sccboe.org/cms/lib/AL50000450/Centricity/Domain/910/1179514.gif" />
+                  <img class="img-fluid d-none img-exame m-5" src="https://i.giphy.com/media/3o7abldj0b3rxrZUxW/giphy.webp" /> 
+                  <button type="submit" class="btn btn-primary botao2" onclick="voltar(); return false" >Simular novamente</button>
+                </div>
+            </div>
+        </div>
+      </div>
+    </div>
+  </main>
+    <!-- <footer>
+      <div class="text-center" >
+        <a href="https://www.proa.org.br/" target="_blank"><img class="img" src="_img/02 (2).png"></a>
+      </div>
+    </footer> -->
+    <script type="text/javascript" src="_js/calcular_media.js"></script>
+  </body>
+</html>

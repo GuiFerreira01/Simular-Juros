@@ -1,0 +1,74 @@
+
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none; margin: 0; 
+}
+
+.result-value {
+  
+  justify-content: space-between !important;
+}
+
+
+
+img {
+  margin-left: 1%;
+  margin-top: 1%;
+  width: 69px;
+}
+
+.itau {
+    width: 90px;
+    margin: 0;
+}
+
+
+
+header {
+    align-items: center;
+}
+
+.gabriel {
+    background-color: #ec7000;
+}
+
+
+
+footer {
+  background-color: #191824;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding: 10px;
+} 
+
+p {
+  font-size: 50px;
+}
+
+.botao2 {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+
+button {
+  background-color: #ff5757 !important;
+  border:#ff5757 !important;
+}
+
+h1 {
+  color: black !important;
+  margin-top: 17% !important;
+}
+
+.meio {
+  margin-top: 4%;
+}
+
+.description-result {
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+
